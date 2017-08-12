@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>Crystals Collector Game</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" type="text/css" href="assets\css\reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+	<!-- jQuery CDN -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="assets\javascript\game.js"></script>
+</head>
+<body>
+
+<h1>CrystalsCollectors!</h1>
+
+<!-- Instructions -->
+<div class="paragraph">
+
+<p>You will be given a random number at the start of the game.</p>
+<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+<p>The value of each crystal is hidden from you until you click on it.</p>
+<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+</div>  <!-- paragraph -->
+
+
+<div id="number-to-guess"></div>
+
+
+<div id="score-win">
+<p>Wins: <span id="wins"></span></p>
+<p>Losses: <span id="losses"></span></p>
+
+</div>
+
+
+<div class="gem-images">
+
+<button><img class="blue-gem cyristal-click" src="assets\images\blue.png"></button>
+<button><img class="green-gem cyristal-click" src="assets\images\green.png"></button>
+<button><img class="red-gem cyristal-click" src="http://clipground.com/images/berg-crystal-clipart-19.jpg" width="70px"></button>
+<button><img class="yellow-gem cyristal-click" src="assets\images\yellow.png"></button>
+
+</div>
+
+<h5>Your total score is: <span id="total-score"></span></h5>
+
+</body>
+</html>

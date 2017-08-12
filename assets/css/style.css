@@ -1,0 +1,49 @@
+
+h1 {
+	background-color: #c97127;
+	color: white;
+	display: inline-block;
+	line-height: 80px;
+}
+
+h5 {
+	background-color: #c97127;
+	color: white;
+	display: inline-block;
+	width: 150px;
+	height: 70px;
+}
+
+.paragraph {
+	background-color: #f9e6cc;
+	color: green;
+	width: 450px;
+	height: 300px;
+	padding: 10px;
+} 
+
+#number-to-guess {
+	background: green;
+	width: 80px;
+	height: 70px;
+	display: inline-block;
+	text-align: center;
+	
+}	
+
+#score-win {
+	background-color: #4bfdfc;
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 30px;
+	width: 60px;
+	text-align: center;
+}
+
+.green-gem, .yellow-gem {
+	height: 62px;
+}
+
+.red-gem {
+	background: white;
+}
